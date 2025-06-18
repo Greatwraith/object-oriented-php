@@ -1,0 +1,90 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.tr-thead{
+    background-color: burlywood;
+    font-size: larger;
+    color: solid black;
+}
+
+.tr-tbody{
+    font-size: 18px;
+}
+
+a.btn2 {
+    background:rgb(232, 2, 248);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+a.btn2:hover {
+    background-color:rgb(127, 4, 102);
+    transform: scale(1.05);
+}
+
+a.btn2:active {
+    background-color:rgb(127, 4, 102);
+    transform: scale(0.95);
+}
+
+
+.table-tambah {
+    width: 27%;              /* Atur lebar tabel lebih kecil */
+    border: 1px solid #333;  /* Tambahkan border */
+    border-radius: 20px;
+    background-color: #f9f9f9; /* Warna latar */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Tambahkan bayangan */
+}
+
+.tr-tambah td {
+    padding: 8px;            /* Sedikit lebih kecil dari default */
+    text-align: left;        /* Ratakan teks ke kiri */
+}
+
+
+.btn2 {
+    background:rgb(232, 2, 248);
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 170px;
+    
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn2:hover {
+    background-color:rgb(127, 4, 102);
+    transform: scale(1.05);
+}
+
+.btn2:active {
+    background-color:rgb(127, 4, 102);
+    transform: scale(0.95);
+}
